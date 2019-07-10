@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Nakliye.ENTITY.Nakliyeciler>
+
+@{
+    ViewBag.Title = "Getir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Getir</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NakliyeSirketininAdı)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NakliyeciTelefon1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NakliyeciSehir)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NakliyeciSemt)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NakliyeSirketininAdı)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NakliyeciTelefon1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NakliyeciSehir)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NakliyeciSemt)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

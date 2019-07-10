@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "GirisYap";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!--== Login Page Content Start ==-->
+<section id="lgoin-page-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-8 m-auto">
+                <div class="login-page-content">
+                    <div class="login-form">
+                        <h3>Hoşgeldiniz</h3>
+                        <form action="~/Views/Home/GirisYap.cshtml">
+                            <div class="username">
+                                <input type="text" placeholder="Email veya KullanıcıAdı">
+                            </div>
+                            <div class="password">
+                                <input type="password" placeholder="Şifre">
+                            </div>
+                            <div class="log-btn">
+                                <button type="submit"><i class="fa fa-sign-in"></i>Giriş Yap</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--== Login Page Content End ==-->

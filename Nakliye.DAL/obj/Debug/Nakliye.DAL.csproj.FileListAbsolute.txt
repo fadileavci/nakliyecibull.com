@@ -1,0 +1,15 @@
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\Nakliye.DAL.dll.config
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\Nakliye.DAL.dll
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\Nakliye.DAL.pdb
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\EntityFramework.dll
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\Nakliye.ENTITY.dll
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\Nakliye.ENTITY.pdb
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\Nakliye.ENTITY.dll.config
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\EntityFramework.xml
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\obj\Debug\Nakliye.DAL.csprojAssemblyReference.cache
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\obj\Debug\Nakliye.DAL.csproj.CoreCompileInputs.cache
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\obj\Debug\Nakliye.DAL.csproj.CopyComplete
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\obj\Debug\Nakliye.DAL.dll
+C:\WORK\Nakliye-Projesi3\NakliyeProjesi\Nakliye.DAL\obj\Debug\Nakliye.DAL.pdb

@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "contact-form", action = "" }))
+{
+    if (ViewBag.Success == true)
+    {
+        <div class="info bg-light">Mesajınız başarıyla gönderilmiştir.Bizi tercih ettiğiniz için teşekkür ederiz.</div>
+    }
+    <h4>İletişim Formu</h4><br />
+    <p>
+        Bizimle iletişim kurarak evden eve nakliyat için iki mesafe arası ücreti veya sıkça sorulan sorular hakkında detaylı bilgi alabilirsiniz. Aşağıdaki formu doldurarak veya
+        <a href="mailto:nakliyecibul34@gmail.com">nakliyecibul34@gmail.com</a>&nbsp;  adresinden müşteri temsilcisi ile iletişim kurabilirsiniz.
+    </p>
+    <br />
+    <div class="col-lg-10 fa-border">
+        <div class="contact-form">
+            <input type="text" name="FirstName" placeholder="Ad..." /><br /><br />
+            <input type="text" name="LastName" placeholder="Soyad..." /><br /><br />
+            <input type="text" name="Email" placeholder="E-mail... :" /><br /><br />
+            <input type="text" name="FirmaAdi" placeholder="Firma Adı..." /><br /><br />
+            <input type="text" name="Subject" placeholder="Konu..." /><br /><br />
+            <textarea type="text" name="Message" placeholder="Mesaj..." rows="9"></textarea><br /><br />
+
+        </div>
+        <input type="submit" value="Gönder" class="btn btn-warning btn-block" />
+    </div>
+
+}

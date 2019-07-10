@@ -1,0 +1,61 @@
+﻿@model Nakliye.ENTITY.Nakliyeciler
+
+@{
+    ViewBag.Title = "NakliyeciDetay";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div>
+    <h4>Nakliyeci detaylarına buradan ulaşabilirsiniz.</h4>
+    <hr />
+    <table>
+        <tr>
+            <th>
+                <h5><span style="color:#ffd000"><i class="fa fa-home"></i>@Html.LabelFor(model => model.NakliyeSirketininAdı, "Nakliye Firmasının Adı : ")</span></h5>
+                <h6> @Html.DisplayFor(model => model.NakliyeSirketininAdı)</h6>
+                <br />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <h5><span style="color:#ffd000"><i class="fa fa-phone"></i> @Html.LabelFor(model => model.NakliyeciTelefon1, "İrtibat Numarası : ")</span></h5>
+                <h6>@Html.DisplayFor(model => model.NakliyeciTelefon1)</h6>
+                <br />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <h5>
+                    <span style="color:#ffd000"><i class="fa fa-building"></i>@Html.LabelFor(model => model.NakliyeciSehir, "Bulunduğu Şehir")</span>
+                </h5>
+                <h6> @Html.DisplayFor(model => model.NakliyeciSehir)</h6>
+                <br />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <h5>
+                    <span style="color:#ffd000">
+                        <i class="fa fa-building-o"></i>@Html.LabelFor(model => model.NakliyeciSemt, "Bulunduğu Semt :")
+
+                    </span>
+                </h5>
+                <h6>  @Html.DisplayFor(model => model.NakliyeciSemt)</h6>
+                <br />
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <h5>
+                    <span style="color:#ffd000">
+                        <i class="fa fa-comment"></i>Açıklama :
+
+                    </span>
+                </h5>
+                <h6>Bütün nakliye firmalarımızın işlerini dikkatle ve özenle yaptığından emin olabilirsiniz. </h6>
+            </th>
+        </tr>
+    </table>   
+</div>
